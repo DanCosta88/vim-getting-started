@@ -23,7 +23,7 @@ My advice is to clone this repository to your ~/ directory:
 
 ```vim
 mkdir ~/.vim
-git clone https://github.com/DanPhyxius/.vimrc.git ~/
+git clone https://github.com/DanPhyxius/vim-getting-started.git ~/
 ```
 
 ## Tips
