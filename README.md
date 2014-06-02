@@ -36,9 +36,9 @@ In order to use MacVim with best plugins installed, you have to download manuall
 4. Syntastic (automatic installed with Vundle command in .vimrc)
 5. vim-airline  (automatic installed with Vundle command in .vimrc)
 6. vim-colorschemes  (automatic installed with Vundle command in .vimrc)
+7. NeoComplete (download files from [https://github.com/Shougo/neocomplete.vim])
 
-
-## Use NeoComplete
+## Requirements for NeoComplete
 
 In order to use neocomplete, reinstall MacVim with Lua via homebrew:
 
