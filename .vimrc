@@ -227,5 +227,5 @@ endif
 "Be quicker - replace : with a space in Vim Editor
 nmap <space> :
 
-" NeoComplete Enable Option, check if MacVim is with Lua first
+" NeoComplete Enable Option, check if MacVim is with Lua first [https://github.com/Shougo/neocomplete.vim]
 let g:neocomplete#enable_at_startup = 1
