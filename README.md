@@ -20,7 +20,8 @@ Otherwise, you can find alternative resources:
 2. Vim CheatSheet [http://www.fprintf.net/vimCheatSheet.html]
 
 
-Vim is an older Text Editor, with awesome features and open source plugins for programmers:
+Vim is an older Text Editor, but it's very powerful. A lot of that power comes from extensibility. 
+There are awesome features and open source plugins for programmers:
 
 [http://michael.peopleofhonoronly.com/vim/] 
 
