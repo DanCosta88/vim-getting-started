@@ -1,11 +1,11 @@
-.vimrc
+Vim Getting Started
 ======
 
-Initial .vimrc file for getting started with MacVim.
+Initial files to getting started with Vim & MacVim.
 
 
-Insert this file in ~/.
-This file use Pathogen + Vundle Plugin Manager.
+Insert this files in ~/.
+This repository use Pathogen + Vundle Plugin Managers.
 
 ## Manual Installation: 
 
@@ -40,3 +40,4 @@ In order to use MacVim with best plugins installed, you have to download manuall
 ## Vim Colorschemes
 
 Add an initial .vim directory with some colorschemes for Vim.
+
