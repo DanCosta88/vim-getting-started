@@ -229,3 +229,6 @@ nmap <space> :
 
 " NeoComplete Enable Option, check if MacVim is with Lua first [https://github.com/Shougo/neocomplete.vim]
 let g:neocomplete#enable_at_startup = 1
+
+" Autoclose Plugin Disable Comment Option
+let g:autoclose_vim_commentmode = 1  
