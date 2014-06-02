@@ -40,7 +40,7 @@ In order to use MacVim with best plugins installed, you have to download manuall
 
 ## Use NeoComplete
 
-In order to use neocomplete, reinstall MacVim with Lua with homebrew:
+In order to use neocomplete, reinstall MacVim with Lua via homebrew:
 
 ```vim
 brew install macvim --with-cscope --with-lua --HEAD
