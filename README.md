@@ -37,6 +37,15 @@ In order to use MacVim with best plugins installed, you have to download manuall
 5. vim-airline  (automatic installed with Vundle command in .vimrc)
 6. vim-colorschemes  (automatic installed with Vundle command in .vimrc)
 
+
+## Use NeoComplete
+
+In order to use neocomplete, reinstall MacVim with Lua with homebrew:
+
+```vim
+brew install macvim --with-cscope --with-lua --HEAD
+```
+
 After that, open MacVim and use:
 
 ```vim
@@ -53,4 +62,5 @@ Add an initial .vim directory with some colorschemes for Vim.
 
 1. Adds best Vim plugins for Web Development, especially PHP checkers
 2. Add Plugin YouCompleteMe [https://github.com/Valloric/YouCompleteMe] 
+
 
