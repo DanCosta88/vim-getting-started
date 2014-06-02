@@ -3,9 +3,33 @@ Vim Getting Started
 
 Initial files to getting started with Vim & MacVim.
 
+## Before Using MacVim
+
+MacVim is a GUI for Text Editor Vim (Vi Improved).
+Before using, you would read about Vim features.
+
+Vim has a built-in tutorial for beginners that you can find throught CLI, so type:
+
+```vim
+vimtutor
+```
+
+Otherwise, you can find alternative resources:
+
+1. Vim Interactive Tutorial [http://www.openvim.com/tutorial.html]
+2. Vim CheatSheet [http://www.fprintf.net/vimCheatSheet.html]
+
+
+Vim is an older Text Editor, with awesome features and open source plugins for programmers:
+
+[http://michael.peopleofhonoronly.com/vim/] 
+
+
+## About this Repository
 
 Insert this files in ~/.
 This repository use Pathogen + Vundle Plugin Managers.
+
 
 ## Manual Installation: 
 
