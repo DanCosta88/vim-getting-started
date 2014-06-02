@@ -102,8 +102,8 @@ endif
 autocmd vimenter * if !argc() | NERDTree | endif
 autocmd vimenter * NERDTree
 
-"Set Initial directory for NERDTree
-cd ~/Desktop/Development/shinradev/web/www
+"Set Initial directory for NERDTree, edit this with your personal work directory
+cd ~/Desktop/Development/phyxius/web/www
 map <F2> :NERDTreeToggle<CR>
 " open Nerd Tree in folder of file in active buffer
 map <Leader>nt :NERDTree %:p:h<CR>
