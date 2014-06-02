@@ -5,6 +5,7 @@ Initial files to getting started with Vim & MacVim.
 
 ## Before Using MacVim
 
+
 MacVim is a GUI for Text Editor Vim (Vi Improved).
 Before using, you would read about Vim features.
 
