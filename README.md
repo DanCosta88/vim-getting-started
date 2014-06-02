@@ -87,5 +87,5 @@ Add an initial .vim directory with some colorschemes for Vim.
 
 1. Adds support best Vim plugins for Web Development, especially PHP checkers
 2. Add support for plugin YouCompleteMe [https://github.com/Valloric/YouCompleteMe] 
-
+3. Add support for Github
 
