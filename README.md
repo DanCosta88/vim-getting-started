@@ -54,7 +54,7 @@ git clone https://github.com/DanPhyxius/vim-getting-started.git ~/
 
 ## Tips
 
-In order to use MacVim with best plugins installed, you have to download manually someone of them:
+In order to use MacVim with best plugins installed, you have to manually download some of them:
 
 1. Vundle Plugin Manager [https://github.com/gmarik/Vundle.vim#quick-start]
 2. Pathogen (Plugin Manager Alternative) [https://github.com/tpope/vim-pathogen]
