@@ -48,8 +48,7 @@ so, you will create the .vimrc file and the .vim folder. Use Vi (or nano) to edi
 My advice is to clone this repository to your ~/ directory:
 
 ```vim
-mkdir ~/.vim
-git clone https://github.com/DanPhyxius/vim-getting-started.git ~/
+git clone https://github.com/DanPhyxius/vim-getting-started.git DanPhyxius/ && mv DanPhyxius/.vim . && mv DanPhyxius/.vimrc .
 ```
 
 ## Tips
