@@ -90,6 +90,10 @@ noremap <leader>ss :call StripWhitespace()<CR>
 " Save a file as root (,W)
 noremap <leader>W :w !sudo tee % > /dev/null<CR>
 
+"Set Initial Command on Startup
+"autocmd vimenter * ConqueTermVSplit vagrant ssh 
+"autocmd vimenter * ConqueTermSplit bash
+
 " Automatic commands
 if has("autocmd")
         " Enable file type detection
@@ -102,11 +106,13 @@ endif
 autocmd vimenter * if !argc() | NERDTree | endif
 autocmd vimenter * NERDTree
 
-"Set Initial directory for NERDTree, edit this with your personal work directory
-cd ~/Desktop/Development/phyxius/web/www
+"Set Initial directory for NERDTree
+cd ~/Desktop/Development/shinradev/web/www
 map <F2> :NERDTreeToggle<CR>
 " open Nerd Tree in folder of file in active buffer
 map <Leader>nt :NERDTree %:p:h<CR>
+let g:NERDTreeMouseMode=2
+
 
 
 set nocompatible              " be iMproved, required
@@ -155,7 +161,9 @@ set nocompatible
 set background=dark
 set t_Co=256
 "colorscheme molokai
-colorscheme Monokai
+"colorscheme Monokai
+colorscheme codeschool
+set transparency=2
 let g:rehash256 = 1
 highlight ColorColumn ctermbg=7
 highlight ColorColumn guibg=Gray
@@ -204,12 +212,12 @@ set linespace=3
 set go-=T
 
 "Set font type and size. Depends on the resolution. Larger screens, prefer h20
-" set guifont=Menlo:h12
+"set guifont=Menlo:h12
 
 "Save old file when switching to new one
 set autowrite
 "Font and Theme alternative for MacVim
-set guifont=Monaco:h13
+"set guifont=Monaco:h12
 " colorscheme navajo-night
 
 "Stop Vim making back up files
@@ -227,8 +235,48 @@ endif
 "Be quicker - replace : with a space in Vim Editor
 nmap <space> :
 
-" NeoComplete Enable Option, check if MacVim is with Lua first [https://github.com/Shougo/neocomplete.vim]
+" NeoComplete Enable Option
 let g:neocomplete#enable_at_startup = 1
 
 " Autoclose Plugin Disable Comment Option
-let g:autoclose_vim_commentmode = 1  
+let g:autoclose_vim_commentmode = 1
+
+" PHP Complete Plugin
+Bundle 'shawncplus/phpcomplete.vim'
+
+let g:phpcomplete_relax_static_constraint = 1
+let g:phpcomplete_complete_for_unknown_classes = 1
+let g:phpcomplete_search_tags_for_variables = 1
+let g:phpcomplete_parse_docblock_comments = 1
+
+
+" using Source Code Pro
+" set anti enc=utf-8
+"set guifont=Source\ Code\ Pro\ 13
+
+" New themes for MacVim 
+Bundle "yearofmoo/Vim-Darkmate"
+
+" Set ConqueTerm Options
+let g:ConqueTerm_Color = 1
+
+" Indentation
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
+set nowrap
+
+" WindowSwap Plugin
+Bundle 'wesQ3/vim-windowswap'
+
+" Remapping WindowSwap
+let g:windowswap_map_keys = 0 "prevent default bindings
+nnoremap <silent> <leader>jk :call WindowSwap#MarkWindowSwap()<CR>
+nnoremap <silent> <leader>jl :call WindowSwap#DoWindowSwap()<CR>
+
+" Mini Buffer Explorer Configuration
+let g:miniBufExplMapWindowNavVim = 1 
+let g:miniBufExplMapWindowNavArrows = 1 
+let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplModSelTarget = 1 
