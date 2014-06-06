@@ -49,26 +49,21 @@ My advice is to clone this repository to your ~/ directory:
 
 ```vim
 git clone https://github.com/DanPhyxius/vim-getting-started.git DanPhyxius/ 
-&& mv DanPhyxius/.vim . && mv DanPhyxius/.vimrc . && cd ~/.vim/bundle &&
+&& cp DanPhyxius/.vim . && cp DanPhyxius/.vimrc . && cd ~/.vim/bundle &&
 git clone https://github.com/scrooloose/nerdtree.git
-
 ```
 
 Sometimes, Vundle is not recognized by default, so you have to install it manually:
 
 ```vim
-
 vim +PluginInstall +qall
-
 ```
 
 So, open vim, and use:
 
 ```vim
-
 :source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
 :BundleInstall
-
 ```
 
 ## Tips
