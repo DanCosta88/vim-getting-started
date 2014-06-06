@@ -62,6 +62,15 @@ vim +PluginInstall +qall
 
 ```
 
+So, open vim, and use:
+
+```vim
+
+:source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim
+:BundleInstall
+
+```
+
 ## Tips
 
 In order to use MacVim with best plugins installed, you have to manually download some of them:
