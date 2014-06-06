@@ -49,7 +49,8 @@ My advice is to clone this repository to your ~/ directory:
 
 ```vim
 git clone https://github.com/DanPhyxius/vim-getting-started.git DanPhyxius/ 
-&& mv DanPhyxius/.vim . && mv DanPhyxius/.vimrc .
+&& mv DanPhyxius/.vim . && mv DanPhyxius/.vimrc . && cd ~/.vim/bundle &&
+git clone https://github.com/scrooloose/nerdtree.git
 
 ```
 
