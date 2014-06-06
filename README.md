@@ -50,6 +50,15 @@ My advice is to clone this repository to your ~/ directory:
 ```vim
 git clone https://github.com/DanPhyxius/vim-getting-started.git DanPhyxius/ 
 && mv DanPhyxius/.vim . && mv DanPhyxius/.vimrc .
+
+```
+
+Sometimes, Vundle is not recognized by default, so you have to install it manually:
+
+```vim
+
+vim +PluginInstall +qall
+
 ```
 
 ## Tips
